@@ -52,12 +52,12 @@ public class MainActivity extends AppCompatActivity {
         //getSupportActionBar().hide();
         ButterKnife.bind(this);
 
-        //initToolBar();
-        initDrawerLayout();
-
-        initFragment();
-
-        initBottomTab();
+//        initToolBar();
+//        initDrawerLayout();
+//
+//        initFragment();
+//
+//        initBottomTab();
 
 
     }
