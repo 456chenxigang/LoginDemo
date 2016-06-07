@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_item0"
+            android:checkable="true"
+            android:title="修改主题"
+            android:icon="@drawable/ic_favorite_black_24dp">
+        </item>
+        <item
+            android:id="@+id/drawer_item1"
+            android:checkable="true"
+            android:title="扫描二维码"
+            android:icon="@drawable/ic_more_horiz_black_24dp">
+        </item>
+        <item
+            android:id="@+id/drawer_item2"
+            android:checkable="true"
+            android:title="记录"
+            android:icon="@drawable/ic_home_black_24dp">
+        </item>
+    </group>
+    <item android:title="其他">
+    <menu android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_item3"
+            android:checkable="true"
+            android:title="下载"
+            android:icon="@drawable/ic_file_download_black_24dp">
+        </item>
+        <item
+            android:id="@+id/drawer_item4"
+            android:checkable="true"
+            android:title="设置"
+            android:icon="@drawable/ic_settings_black_24dp">
+        </item>
+    </menu>
+    </item>
+</menu>
