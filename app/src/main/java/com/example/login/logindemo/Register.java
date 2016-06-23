@@ -63,7 +63,7 @@ class Register extends AppCompatActivity implements android.app.LoaderManager.Lo
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         ButterKnife.bind(this);
-        getSupportActionBar().setTitle("注册");
+    //    getSupportActionBar().setTitle("注册");
 
         populateAutoComplete();
 
